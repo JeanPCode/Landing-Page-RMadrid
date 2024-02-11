@@ -1,0 +1,6 @@
+.wrapper {
+    max-inline-size: 1280px;
+    padding: 0 16px; /*16px = 1rem*/
+    margin: auto;
+    background-image: linear-gradient(to top, #bc89fe 30%, #66a6ff 70%);
+}

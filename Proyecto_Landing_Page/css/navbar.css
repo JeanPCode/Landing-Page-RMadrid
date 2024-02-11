@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #89f7fe 30%, #66a6ff 70%);
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(to bottom, #b6f5fa 0%, #599af7 100%);
+        height: 80px;
+        padding: 0 15px;
+    }
+
+    .header-logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-nav{
+        display: flex;
+        align-items: center;
+        width: 480px;
+    }
+
+    .header-nav ul{
+        list-style: none;
+        width: inherit;
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .header-nav ul li.nav-ul-li > a {
+        font-family: "Protest Revolution", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+}
